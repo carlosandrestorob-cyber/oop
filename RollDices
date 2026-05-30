@@ -1,0 +1,62 @@
+cd C:\Users\PC\Desktop\opp\RollDices; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.mycompany.rolldices.RollDices \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.5.1:exec"
+Scanning for projects...
+
+----------------------< com.mycompany:RollDices >-----------------------
+Building RollDices 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.4.0:resources (default-resources) @ RollDices ---
+skip non existing resourceDirectory C:\Users\PC\Desktop\opp\RollDices\src\main\resources
+
+--- compiler:3.15.0:compile (default-compile) @ RollDices ---
+Recompiling the module because of changed source code.
+Compiling 1 source file with javac [debug release 26] to target\classes
+
+--- exec:3.5.1:exec (default-cli) @ RollDices ---
+:::WELCOME TO ROLL DICES:::
+Your player name: 
+Carlos
+
+Press any key to roll dices !!!
+k
+Jugador: Carlos | Vidas: 5
+Dado1 = 6 | Dado2 = 1 | Suma = 7
+
+Press any key to roll dices !!!
+h
+Jugador: Carlos | Vidas: 4
+Dado1 = 1 | Dado2 = 6 | Suma = 7
+
+Press any key to roll dices !!!
+hg
+Jugador: Carlos | Vidas: 3
+Dado1 = 2 | Dado2 = 1 | Suma = 3
+
+Press any key to roll dices !!!
+t
+Jugador: Carlos | Vidas: 2
+Dado1 = 2 | Dado2 = 6 | Suma = 8
+
+Press any key to roll dices !!!
+u
+Jugador: Carlos | Vidas: 2
+Dado1 = 1 | Dado2 = 4 | Suma = 5
+
+Press any key to roll dices !!!
+u
+Jugador: Carlos | Vidas: 1
+Dado1 = 2 | Dado2 = 5 | Suma = 7
+GAME OVER
+
+--- INFORME FINAL ---
+Total de lanzamientos: 6
+Total de sumas pares: 1
+Total de sumas impares: 5
+Total de dados iguales: 0
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  38.701 s
+Finished at: 2026-05-30T15:59:23-05:00
+------------------------------------------------------------------------
